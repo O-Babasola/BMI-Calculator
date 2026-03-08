@@ -1,0 +1,100 @@
+<!-- Well done Oluwatise on your first own project (15/02/2026)-->
+<!-- https://www.bupa.co.uk/health-information/bmi-calculator -->
+
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="BMI calculator.style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <meta name="description" content="BMI Calculator">
+    <meta name="keywords" content="weight loss, health, fitness, BMI calculator, body mass index, healthy lifestyle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="BMI Calculator">
+    <meta name="author" content="Oluwatise">
+    <meta property="og:description" content="A single page BMI calculator website">
+    <meta property="og:type" content="BMI Calculator">
+    
+</head>
+
+<body>
+    <article>
+        <header>
+            <h1>BMI Calculator</h1>
+            <h2>Body Mass Index otherwise known as BMI is one of the many ways to measure whether someone has a healthy weight or not.</h2>
+        </header>
+        <p>BMI uses your height and weight to determine how healthy your overall weight is.</p>
+        <p>Simply enter your details below to find out what your BMI is.</p>
+    </article>
+
+    <main class="container"> 
+        <h1 class="title center">BMI Calculator</h1>
+        <p class="description center">Please fill out the form below to calculate your Body Mass Index (BMI)</p>
+
+        <!-- Link the javascript and html together -->
+        <form id="calculatorForm" onsubmit="handleSubmit(event)">
+            <fieldset>
+                <legend>Height (in cm)</legend>
+                <label for="height">What is your height (in cm): </label>
+                <input 
+                type ="number"
+                name="height"
+                id="height"
+                placeholder="E.g., 170cm"
+                min ="145"
+                max = "272"
+                step ="0.1" 
+                aria-describedby="height-help"
+                />
+                <!-- "step="0.1" allow decimal values -->
+                <span id="height-help" class="sr-only"> Enter your height in centimeters </span>
+            </fieldset>
+
+            <fieldset>
+                <legend>Weight (in kg)</legend>
+                <label for="weight">What is your weight (in kg): </label>
+                <input 
+                type ="number"
+                name="weight"
+                id="weight"
+                placeholder="E.g., 72kg"
+                min ="38"
+                max = "640"
+                step ="0.1" 
+                aria-describedby = "weight-help"
+                />
+                <!-- "class="sr-only" hides the text visually but keeps it readable by screen readers
+                When someone uses a screen reader and focuses on this weight input, 
+                also read the hidden help message.
+                -->
+                <span id="weight-help" class="sr-only"> Enter your weight in kilograms </span>
+            </fieldset>
+            <button class="submit-btn" type="submit" id="calculate-btn">Calculate</button>
+             <!-- Clear the result when the reset button is clicked -->
+            <button class="reset-btn" type="reset" onclick="clearResult()">Reset</button> 
+
+        </form>
+             
+            <div id="result">
+            <h3>BMI result: </h3>
+            <p id="calculation-result"></p>
+            </div>
+
+
+    </main>
+   
+    <!-- History section for Local Storage -->
+     <div id="history-section" class="history-container">
+        <h3>Previous Results: </h3>
+        <div id="history-list"></div>
+        <button type="button" onclick="clearAllHistory()" class="clear-history-btn">Clear History</button>
+     </div>
+
+      <footer>
+        <p>&copy; 2026 BMI CALCULATOR | Developed by frontendfuel</p>
+    </footer>
+
+<script src="bmi-calculator.js"></script>
+</body>

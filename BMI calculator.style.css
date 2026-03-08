@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  white;
+    color: black;
+    font-family: "Patrick Hand", cursive;
+    line-height: 1.5;
+
+}
+
+form{
+    background-color: ghostwhite;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+fieldset{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#height, #weight{
+    width: 100%;
+    padding: 4px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+
+legend{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.container{
+    background-color: lightskyblue;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 20px auto 50px auto;
+    padding: 10px 20px 26px 20px;
+    box-shadow: 0 5px 15px black;  
+}
+
+.submit-btn, .reset-btn{
+    cursor: pointer;
+    background-color: blue;
+    color: whitesmoke;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 20px;
+    display: block;
+    justify-content: center;
+    margin: 10px 10px;
+    transition: all 0.3s ease;
+
+}
+
+.submit-btn:hover {
+    background-color: green;
+    transform: scale(1.2);
+}
+
+
+.reset-btn:hover {
+    background-color: red;
+    transform: scale(1.2);
+}
+
+
+
+#result{
+    background-color: whitesmoke;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border: 2px solid blue;
+    text-align: center;
+}
+
+#result h3{
+    color: black;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+
+#calculation-result {
+    font-size: 1.2em;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    min-height: 80px; /* Prevents layout shift when empty */
+}
+
+/* Style for the BMI category display */
+#calculation-result strong {
+    color: blue;
+    font-size: 1.4em;
+}
