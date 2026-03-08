@@ -47,7 +47,6 @@ Feel free to check the [issues page](https://github.com/O-Babasola/BMI-Calculato
 
 ## 👩‍💻 Author
 👤
- <div align="center">
   <table>
     <tr>
       <td align="right"><strong>Real Name:</strong></td>
@@ -62,7 +61,6 @@ Feel free to check the [issues page](https://github.com/O-Babasola/BMI-Calculato
       <td><a href="https://github.com/O-Babasola">@O-Babasola</a></td>
     </tr>
   </table>
-</div>
 
 ## ⭐ Show Your Support
 - If you find this project helpful, please consider giving it a star on GitHub!
