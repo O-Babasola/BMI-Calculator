@@ -46,7 +46,23 @@ Feel free to check the [issues page](https://github.com/O-Babasola/BMI-Calculato
 
 
 ## 👩‍💻 Author
-👤**Oluwatise** · _frontendfuel_ · [GitHub Profile](https://github.com/O-Babasola)
+👤
+ <div align="center">
+  <table>
+    <tr>
+      <td align="right"><strong>Real Name:</strong></td>
+      <td>Oluwatise 👤</td>
+    </tr>
+    <tr>
+      <td align="right"><strong>Coding Alias:</strong></td>
+      <td><code>frontendfuel</code> ⛽</td>
+    </tr>
+    <tr>
+      <td align="right"><strong>GitHub:</strong></td>
+      <td><a href="https://github.com/O-Babasola">@O-Babasola</a></td>
+    </tr>
+  </table>
+</div>
 
 ## ⭐ Show Your Support
 - If you find this project helpful, please consider giving it a star on GitHub!
