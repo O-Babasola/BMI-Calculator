@@ -1,7 +1,3 @@
-/* Well done Oluwatise on your first own functioning javascript. 
-Very proud of you. (16/02/2026) */
-
-
 function handleSubmit(event){
     //1. Prevents default form behaviour
     event.preventDefault();
@@ -109,3 +105,4 @@ function saveBmiRecord(heightInput, weightInput, roundedBmi, category) {
 
     // Also for optional challenge, allow loading of page into the BMI page
     // Allow the user the option to login in as either a guest or login/signup if the are a guest their bmi records are not saved, else it is saved.
+
