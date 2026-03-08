@@ -9,7 +9,7 @@ This web application allows users to quickly calculate their BMI based on their 
 - Real-time BMI calculation
 - Displays BMI category (e.g., Underweight, Normal, Overweight, Obese)
 - 
-- ## In progress:
+- ## 📊 In progress:
    - Making the BMI calculator responsive design that adapts to mobile and desktop screens
 
 
