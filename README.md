@@ -48,7 +48,7 @@ Feel free to check the [issues page](https://github.com/O-Babasola/BMI-Calculato
 ## 👩‍💻 Author
   <table>
     <tr>
-      <td align="right"><strong>Real Name:</strong></td>
+      <td align="right"><strong>Name:</strong></td>
       <td>Oluwatise 👤</td>
     </tr>
     <tr>
