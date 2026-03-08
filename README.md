@@ -8,9 +8,11 @@ This web application allows users to quickly calculate their BMI based on their 
 - Clean and user-friendly interface
 - Real-time BMI calculation
 - Displays BMI category (e.g., Underweight, Normal, Overweight, Obese)
+
   
 ## 📊 In progress:
    - Making the BMI calculator responsive design that adapts to mobile and desktop screens
+
 
 
 ## 🛠️ Technologies Used
@@ -27,11 +29,13 @@ This web application allows users to quickly calculate their BMI based on their 
 5. The result will show your BMI value and the corresponding health category.
 
 
+
 ## 📝 License
 
 This project is licensed under the MIT License. 
 You are free to use, modify, and distribute it as per the license terms. 
 See the `LICENSE` file for details.
+
 
 
 ## 🤝 Contributing
@@ -41,6 +45,7 @@ Feel free to check the [issues page](https://github.com/O-Babasola/BMI-Calculato
 
 ## 👩‍💻 Author
 - **O-Babasola** – [GitHub Profile](https://github.com/O-Babasola)
+
 
 ## ⭐ Show Your Support
 - If you find this project helpful, please consider giving it a star on GitHub!
